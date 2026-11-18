@@ -1,0 +1,28 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+pydantic==2.10.4
+pydantic-settings==2.7.1
+email-validator==2.2.0
+
+# Database layer
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+pymysql==1.1.1
+cryptography==44.0.0
+# For Microsoft SQL Server: pip install pyodbc  (+ the msodbcsql18 driver)
+
+
+# Data processing & analytics
+pandas==2.2.3
+
+# SQL parsing / guardrails
+sqlglot==25.24.5
+
+# LLM engine (Ollama built-in structured JSON output)
+httpx==0.28.1
+
+# Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.20
